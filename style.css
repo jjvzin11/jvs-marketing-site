@@ -5,7 +5,17 @@ font-family:Arial,sans-serif;
 
 body{
 margin:0;
-background:#050816;
+background-image:
+linear-gradient(
+rgba(5,8,22,0.85),
+rgba(5,8,22,0.85)
+),
+url("fundo.jpg");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
 color:white;
 }
 
