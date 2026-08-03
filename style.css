@@ -5,17 +5,7 @@
 
 body{
     margin:0;
-    background-image:
-    linear-gradient(
-        rgba(5,8,22,0.80),
-        rgba(5,8,22,0.80)
-    ),
-    url("fundo.png");
-
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-
+    background:#050816;
     color:white;
 }
 
@@ -38,9 +28,23 @@ p{
 }
 
 .hero{
-    background:rgba(17,24,39,0.55);
+    background-image:
+    linear-gradient(
+        rgba(5,8,22,0.70),
+        rgba(5,8,22,0.70)
+    ),
+    url("fundo.png");
+
+    background-size:cover;
+    background-position:center;
+
     text-align:center;
-    padding:90px 20px;
+    padding:120px 20px;
+    min-height:600px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 .btn{
